@@ -2,12 +2,12 @@
 /* Indra Damar Jati <indradamarjati21@gmail.com> */
 /* MIT License - 2023 */
 
-@import url("https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&family=Inter:wght@300;400;500;600;800&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=B612:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 :root {
   --foreground: #000;
   --background: #fff;
-  --font-family-sans: "Inter", "Helvetica", "Arial", sans-serif;
+  --font-family-sans: "B612", "Helvetica", "Arial", sans-serif;
   --font-family-mono: "Fira Code", "IBM Plex Mono", "Consolas", monospace;
   --border: lightgray;
 }
