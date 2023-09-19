@@ -66,8 +66,8 @@ table {
 
 td,
 th {
-  padding: 4px 0px;
-  border-bottom: 1px solid var(--foreground);
+  padding: 8px;
+  border: 1px solid var(--foreground);
   vertical-align: top;
   text-align: left;
 }
