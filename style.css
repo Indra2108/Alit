@@ -20,7 +20,7 @@ body {
   background-color: var(--background);
   color: var(--foreground);
   font-family: var(--font-family-sans);
-  max-width: 600px;
+  max-width: 650px;
   margin: 0 auto;
   letter-spacing: -0.03em;
   font-variation-settings: "wght" 400, "ss03";
@@ -100,27 +100,6 @@ a {
 a:hover {
   color: #ba30ff;
   transition: 200ms;
-}
-
-button {
-  padding: 10px 20px;
-  border-radius: 5px;
-  box-shadow: none;
-  border: none;
-  cursor: pointer;
-  font-family: var(--font-family-sans);
-  box-shadow: 0px 0px 2.2px rgba(0, 0, 0, 0.006),
-    0px 0px 5.3px rgba(0, 0, 0, 0.008), 0px 0px 10px rgba(0, 0, 0, 0.01),
-    0px 0px 17.9px rgba(0, 0, 0, 0.012), 0px 0px 33.4px rgba(0, 0, 0, 0.014),
-    0px 0px 80px rgba(0, 0, 0, 0.02);
-  color: white;
-  background-color: #5500ff;
-  font-size: 16px;
-  transition: 200ms;
-}
-
-button:hover {
-  background-color: #ba30ff;
 }
 
 table {
