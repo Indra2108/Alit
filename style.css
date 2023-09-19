@@ -102,6 +102,10 @@ a:hover {
   transition: 200ms;
 }
 
+p {
+  line-height: 1.6;
+}
+
 table {
   border-collapse: collapse;
   width: 100%;
