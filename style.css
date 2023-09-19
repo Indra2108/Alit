@@ -2,14 +2,13 @@
 /* Indra Damar Jati <indradamarjati21@gmail.com> */
 /* MIT License - 2023 */
 
-@import url('https://fonts.googleapis.com/css2?family=Amiri&family=Crimson+Pro:ital,wght@0,400;0,700;1,400;1,700&family=JetBrains+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Pro:ital,wght@0,400;0,700;1,400;1,700&family=JetBrains+Mono&display=swap');
 
 :root {
   --foreground: #393b3f;
   --background: #edeaea;
   --font-family-serif: 'Crimson Pro', serif;
   --font-family-mono: "JetBrains Mono", monospace;
-  --font-family-arabic: 'Amiri', serif;
   --border: lightgray;
 }
 
@@ -27,6 +26,7 @@ body {
   font-variation-settings: "wght" 400, "ss03";
   padding-top: 50px;
   padding-bottom: 50px;
+  font-size: large;
 }
 
 @media only screen and (max-width: 600px) {
@@ -48,35 +48,12 @@ hr {
   border-top: 1px solid var(--border);
 }
 
-code {
-  font-family: var(--font-family-mono);
-  color: gray;
+pre > code {
+  margin-left: 20px;
 }
 
-code:before {
-  content: "`";
-}
-
-code:after {
-  content: "`";
-}
-
-pre>code {
-  background-color: var(--border);
-  border-radius: 5px;
-  padding: 5px 5px;
-  font-family: var(--font-family-mono);
-  color: var(--foreground);
-  width: 100%;
-  line-height: 1.7;
-}
-
-pre>code:before {
-  content: "";
-}
-
-pre>code:after {
-  content: "";
+code { 
+  font-family: 'JetBrains Mono', monospace;
 }
 
 a {
