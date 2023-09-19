@@ -20,7 +20,6 @@ body {
   font-family: var(--font-family-serif);
   max-width: 650px;
   margin: 0 auto;
-  letter-spacing: -0.03em;
   font-variation-settings: "wght" 400, "ss03";
   padding-top: 50px;
   padding-bottom: 50px;
@@ -30,12 +29,21 @@ h1 {
   font-size: 3em;
 }
 
+figure {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
 img {
+  display: block; /* remove this line if you wanna to separate between image and caption */
   width: 100%;
 }
 
 figcaption {
   text-align: center;
+  background-color: var(--foreground);
+  color: var(--background);
 }
 
 hr {
