@@ -1,4 +1,4 @@
-# alit.css
+# Alit
 
 > *alit* in Javanese means *mini* or *small*.
 
