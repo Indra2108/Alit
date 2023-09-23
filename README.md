@@ -6,4 +6,4 @@ A minimal starter stylesheet for blog, based from [don8t.css](https://github.com
 
 ## Screenshot
 
-![alit.css](example.png)
+![alit.css](screenshot.png)
